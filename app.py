@@ -133,13 +133,14 @@ with st.sidebar:
 
     # API Key
     st.markdown("### 🔑 API Key")
-    api_key = st.text_input(
-        "Google Gemini API Key",
-        value=os.getenv("GOOGLE_API_KEY", ""),
-        type="password",
-        placeholder="AIzaSy...",
-        help="Get your FREE key at aistudio.google.com/app/apikey"
-    )
+    #api_key = st.text_input(
+    #    "Google Gemini API Key",
+    #    value=os.getenv("GOOGLE_API_KEY", ""),
+    #    type="password",
+    #   placeholder="AIzaSy...",
+    #    help="Get your FREE key at aistudio.google.com/app/apikey"
+    #)
+    api_key = "AIzaSyCsHkVP6vRjS_2spzJKareGu4--hNIUeww"
     if not api_key:
         st.info("👆 Add your API key to start chatting")
         st.markdown("[**Get Free API Key →**](https://aistudio.google.com/app/apikey)")
