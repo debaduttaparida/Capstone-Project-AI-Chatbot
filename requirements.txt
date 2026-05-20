@@ -2,7 +2,7 @@
 # Install:  pip install -r requirements.txt
 # Python:   >= 3.9
 # API:      Google Gemini (FREE) — get key at aistudio.google.com/app/apikey
-
+pip==26.1.1
 # ── Core LLM & LangChain ───────────────────────────────────────────────────────
 langchain==0.2.16
 langchain-core==0.2.38
