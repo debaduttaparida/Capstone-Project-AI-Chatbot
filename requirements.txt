@@ -14,7 +14,7 @@ google-generativeai==0.7.2
 
 # ── Web App (Deployment) ───────────────────────────────────────────────────────
 streamlit==1.38.0
-pillow==10.4.0
+pillow
 # ── Environment & Utilities ────────────────────────────────────────────────────
 python-dotenv==1.0.1
 
