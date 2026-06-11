@@ -140,7 +140,8 @@ with st.sidebar:
     #   placeholder="AIzaSy...",
     #    help="Get your FREE key at aistudio.google.com/app/apikey"
     #)
-    api_key = "AIzaSyArhTCozkdoJD2KfNZZOtN_aQeWsONCpco"
+    #api_key = "AIzaSyArhTCozkdoJD2KfNZZOtN_aQeWsONCpco"
+    api_key = "AQ.Ab8RN6Kf5kk3MPfP-xb4i2oau07tiWJTogdZjpwbrQXwIP5UOQ"
     if not api_key:
         st.info("👆 Add your API key to start chatting")
         st.markdown("[**Get Free API Key →**](https://aistudio.google.com/app/apikey)")
