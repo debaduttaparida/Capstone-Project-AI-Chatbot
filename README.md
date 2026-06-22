@@ -1,6 +1,6 @@
 # 🤖 Nova — AI-Powered Chatbot
 
-> **LangChain + Google Gemini 1.5 Flash + Streamlit**  
+> **LangChain + Google Gemini Flash Latest + Streamlit**  
 > Capstone Project — AI Application Development (Option 1)  
 > 💰 **100% Free** — no credit card, no paid API
 
