@@ -142,7 +142,7 @@ with st.sidebar:
     #)
     #api_key = "AIzaSyArhTCozkdoJD2KfNZZOtN_aQeWsONCpco"
     #api_key = "AQ.Ab8RN6KJltcDUxmP-frs09pB_T_z8Xr2xUGsDLSWGD9r7iaZig"
-    api_key = st.secrets["MY_API_KEY"]
+    api_key = st.secrets.MY_API_KEY
     if not api_key:
         st.info("👆 Add your API key to start chatting")
         st.markdown("[**Get Free API Key →**](https://aistudio.google.com/app/apikey)")
